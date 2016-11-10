@@ -1,0 +1,26 @@
+h1 {
+    color: magenta;
+    text-align: center;
+    font-size: 100px;
+    font-family: monospace
+}
+body {
+    background-color: black;
+}
+h3 {
+font-size: 65px;
+text-align: center;
+color:magenta;
+font-family: monospace
+}
+p{
+  font-size: 20px;
+  color:blueviolet;
+    font-family: inherit
+        
+}
+img {
+    display: block;
+    margin: auto;
+}
+
