@@ -23,4 +23,8 @@ img {
     display: block;
     margin: auto;
 }
-
+@media(max-width:483px){
+    #sixersLogo{
+        width:100%;
+    }
+}
