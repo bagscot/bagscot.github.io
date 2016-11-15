@@ -4,6 +4,7 @@ h1 {
     font-size: 100px;
     font-family: monospace
 }
+
 body {
     background-color: black;
 }
@@ -14,17 +15,38 @@ color:magenta;
 font-family: monospace
 }
 p{
-  font-size: 20px;
+  font-size: 30px;
   color:blueviolet;
-    font-family: inherit
+  font-family: inherit
         
+}
+h4 {
+    color:blueviolet;
+    font-size: 40px
+}
+h5{
+    color: magenta;
+    font-size: 45px;
 }
 img {
     display: block;
     margin: auto;
+    height: 50%;
+    width: 50%
 }
-@media(max-width:483px){
-    #sixersLogo{
-        width:100%;
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 50px;
+    }
+    img {
+    width: 50%;
+    height: 50%;
+    }
+    h3{
+        font-size: 25px;
+    }
+    p {
+        font-size: 15px;     
     }
 }
